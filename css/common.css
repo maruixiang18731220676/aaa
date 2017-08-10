@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+	ul{
+		list-style:none;
+	}
+	em{
+		font-style:normal;
+	}
+	img{
+		border:none;
+		vertical-align:middle;
+	}
+	.clearfix:after,
+	.clearfix:before{
+		content: "";
+		display: table;
+	}
+	.clearfix:after{
+		clear: both;
+	}
+	.clearfix{
+		*zoom:1;/*ie6 7*/
+	}
+	
+	.gWidth{
+		width:1200px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	body,p,h1,h2,h3,h4,h5,h6,ul,ol,li{
+		margin: 0;
+		padding: 0;
+	}
+	a{
+		text-decoration: none;
+		color: #656565;
+	}
+	li{
+		list-style: none;
+	}
+
+/*字体常用样式*/
+	.wy{
+		font-family: "微软雅黑";
+	}
+	.ht{
+		font-family: "黑体";
+	}
+
+/*常用宽度*/
+	.w100p{
+		width: 100%;
+	}
+/*常用浮动*/
+	.fl{
+		float: left;
+	}
+	.fr{
+		float: right;
+	}
